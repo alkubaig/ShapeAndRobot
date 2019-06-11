@@ -94,7 +94,7 @@ $ testEx4'
 
 The result is: 
 ```
-The result is: line: from (5.0, 3.0) to (((2.0 * 3.0) + -4.0), 3.0)
+line: from (5.0, 3.0) to (((2.0 * 3.0) + -4.0), 3.0)
 ```
 
 
