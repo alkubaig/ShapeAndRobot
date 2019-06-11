@@ -50,7 +50,7 @@ For the robotic move module:
 $ ghci Move.hs 
 ```
 
-For the ShapeToMoves module (ext operation)::
+For the ShapeToMoves module (ext operation):
 
 ```
 $ ghci ShapeToMoves.hs 
