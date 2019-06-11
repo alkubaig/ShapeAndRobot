@@ -4,9 +4,9 @@ The system consists of three main modules: primitive terms, shapes and robotic m
 
 # To compile:
 
-basically use GHCI which is a Haskell compiler. 
+Basically use GHCI which is a Haskell compiler. 
 
-These libraries are assumed to be available. 
+**These libraries are assumed to be available.** 
 
 AlaCarte.hs
 
@@ -14,60 +14,78 @@ Prim.hs
 
 Cond.hs 
 
-** for shapes 
+**for shapes** 
 
 For the shape module:
 
+```
 $ ghci Shape.hs
+```
+
 
 For the ShapeArea module (ext operation):
-
+```
 $ ghci ShapeArea.hs
+```
+
 
 For the Rect module (ext data variant):
-
+```
 $ ghci Rect.hs
+```
 
 For the ShapeCircumference module (ext operation):
-
+```
 $ ghci ShapeCircumference.hs
+```
 
 
-** for Robots 
+**for Robots** 
 
 For the robotic move module:
 
+```
 $ ghci Move.hs 
+```
 
 For the ShapeToMoves module (ext operation)::
 
+```
 $ ghci ShapeToMoves.hs 
+```
 
 For the Step module (ext data variant):
-
+```
 $ ghci Step.hs
-
+```
 
 # To test:
 
 First compile the testing module. 
 
+```
 $ ghci Testing.hs
+```
 
 This files contanis examples for testing every module. It shows how the examples grow as the extensions happen. 
 
 Use the comments to guide how the examples relate to modules. 
 
-For example, to test the shape module evaluation function of example 4, you run the following.
 
+For example,
+
+To test the shape module evaluation function of example 4, you run the following.
+
+```
 $ testEx4
-
+```
 The result is: center: (3.5, 3.0) height: 0.0 width: 3.0
 
-to test the shape module pretty print of the same example, you run the following. 
 
+To test the shape module pretty print of the same example, you run the following. 
+```
 $ testEx4'
-
+```
 The result is: line: from (5.0, 3.0) to (((2.0 * 3.0) + -4.0), 3.0)
 
 
